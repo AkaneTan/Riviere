@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="?materialCardViewFilledStyle"
+    app:cardBackgroundColor="?colorSecondaryContainer"
+    app:cardCornerRadius="16dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp">
+    
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:cardCornerRadius="128dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            style="?materialCardViewFilledStyle"
+            app:cardBackgroundColor="?colorSurface">
+
+            <ImageView
+                android:id="@+id/indicator"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/ic_local_cafe"
+                android:layout_margin="5dp"
+                app:tint="?colorSecondary"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="星巴克"
+            android:textSize="12.5sp"
+            android:textColor="?colorOnSecondaryContainer"
+            app:layout_constraintStart_toStartOf="@id/card_frame"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="-45$"
+            android:fontFamily="@font/plexsans"
+            android:textSize="24sp"
+            android:textColor="?colorOnSecondaryContainer"
+            android:layout_marginStart="24dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/desc"/>
+        
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

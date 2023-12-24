@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottom sheet color -->
+    <color name="bottom_sheet_colorPrimaryContainer">#bef4bb</color>
+    <color name="bottom_sheet_colorOnPrimaryContainer">#255429</color>
+    <color name="bottom_sheet_colorPrimaryInverse">#9fd49d</color>
+</resources>

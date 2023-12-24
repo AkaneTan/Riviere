@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rivière</string>
+    <string name="plus_and_minus_switch">Plus and minus switch</string>
+    <string name="quick_record">快速记录</string>
+    <string name="income">收入</string>
+    <string name="budget">预算</string>
+    <string name="expense">支出</string>
+</resources>

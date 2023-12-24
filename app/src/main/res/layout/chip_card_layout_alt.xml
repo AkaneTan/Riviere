@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="24dp"
+        app:cardBackgroundColor="?colorSurface"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp"
+        style="?materialCardViewFilledStyle">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/icon_frame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:cardCornerRadius="128dp"
+                style="?materialCardViewFilledStyle"
+                app:cardBackgroundColor="?colorSecondaryContainer">
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_margin="4dp"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_local_cafe"
+                    app:tint="?colorOnSecondaryContainer" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="早餐"
+                app:layout_constraintStart_toEndOf="@id/icon_frame"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="8dp"
+                android:paddingEnd="6dp"
+                android:textColor="?colorSecondary"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

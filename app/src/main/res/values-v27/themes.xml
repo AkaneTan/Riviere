@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="V27.Theme.Rivière" parent="V23.Theme.Rivière">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">@bool/statusBarContentLight</item>
+    </style>
+
+    <style name="Theme.Rivière" parent="V27.Theme.Rivière" />
+</resources>
