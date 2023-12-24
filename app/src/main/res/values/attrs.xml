@@ -1,0 +1,10 @@
+<resources>
+    <attr name="colorOutcome" format="color" />
+    <attr name="colorOnOutcome" format="color" />
+    <attr name="colorOutcomeContainer" format="color" />
+    <attr name="colorOnOutcomeContainer" format="color" />
+    <attr name="colorIncome" format="color" />
+    <attr name="colorOnIncome" format="color" />
+    <attr name="colorIncomeContainer" format="color" />
+    <attr name="colorOnIncomeContainer" format="color" />
+</resources>

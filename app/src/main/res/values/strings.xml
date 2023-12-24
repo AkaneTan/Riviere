@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rivière</string>
+    <string name="plus_and_minus_switch">Plus and minus switch</string>
+    <string name="quick_record">Quick record</string>
+    <string name="income">Income</string>
+    <string name="budget">Budget</string>
+    <string name="expense">Expense</string>
+</resources>
